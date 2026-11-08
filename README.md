@@ -6,4 +6,4 @@ Run order: build_full_dataset() --> build_base() --> table_skill() --> table_ons
 
 Data: ERA5 daily 00 UTC u, v, T, Φ at 10–100 hPa, 20–90°N, 1° grid, one file per month in data/raw/era5_YYYY_MM.nc (download from the Copernicus Climate Data Store). The QBO index is fetched from NOAA PSL.
 
-Requires: numpy, pandas, xarray, xgboost, shap, scikit-learn, matplotlib, cartopy, aostools.
+download numpy, pandas, xarray, xgboost, shap, scikit-learn, matplotlib, cartopy, aostools
